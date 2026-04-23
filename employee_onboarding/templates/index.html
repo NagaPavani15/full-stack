@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee System</title>
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+padding:30px;
+}
+.container{
+background:white;
+padding:30px;
+width:400px;
+margin:auto;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+button{
+background:blue;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+}
+button:hover{
+background:darkblue;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Employee Training & Onboarding System</h1>
+
+<form method="POST" action="/add_employee">
+<input type="text" name="name" placeholder="Enter Name"><br>
+<input type="email" name="email" placeholder="Enter Email"><br>
+<input type="text" name="department" placeholder="Department"><br>
+<button type="submit">Add Employee</button>
+</form>
+
+</div>
+
+</body>
+</html>
