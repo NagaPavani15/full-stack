@@ -1,0 +1,12 @@
+body { font-family: 'Arial', sans-serif; background: #f4f7f6; display: flex; justify-content: center; padding-top: 50px; }
+.container { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 400px; }
+.input-section { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+button { padding: 10px; cursor: pointer; border: none; background: #007bff; color: white; border-radius: 5px; }
+.controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; font-size: 0.9rem; }
+.filter-btn { background: #eee; color: #333; padding: 5px 10px; }
+.filter-btn.active { background: #007bff; color: white; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #eee; transition: 0.3s; }
+.completed { text-decoration: line-through; color: #888; background: #f9f9f9; }
+.delete-btn { background: #ff4d4d; font-size: 0.8rem; }
