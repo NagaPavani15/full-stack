@@ -1,0 +1,36 @@
+label { display: block; font-weight: 600; margin-bottom: 5px; color: #555; }
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.radio-group { display: flex; gap: 15px; padding: 5px 0; }
+
+.error-msg { color: #e74c3c; font-size: 0.8rem; height: 15px; display: block; margin-top: 3px; }
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover { background: #0056b3; }
+
+.success-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    text-align: center;
+}
